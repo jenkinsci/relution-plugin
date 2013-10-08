@@ -1,7 +1,9 @@
 relution-jenkins-plugin
 =======================
 
-A Jenkins plugin for the Relution Enterprise Appstore by M-Way Solutions GmbH. See http://relution.io for more details about the store itself. This plugin allows to automatically upload artifacts produced by a Jenkins build process to an instance of the Relution Enterprise Appstore. Typical build artifacts are Apple iOS or Google Android binaries.
+A [Jenkins plugin](https://wiki.jenkins-ci.org/display/JENKINS/Relution-Publisher) for the Relution Enterprise Appstore by [M-Way Solutions GmbH](http://mwaysolutions.com). See [relution.io](http://relution.io) for more information about the store itself. This plugin allows to automatically upload artifacts produced by a Jenkins build process to an instance of the Relution Enterprise Appstore. Typical build artifacts are Apple iOS or Google Android binaries.
+
+The plugin is also available in the [Jenkins plugin store](https://wiki.jenkins-ci.org/display/JENKINS/Relution-Publisher). You should see it as an available plugin in your Jenkins installation. If you just want to use the plugin and do not wish to contribute to its code installing the plugin from there is the easiest way to get running. If you want to make a feature request or report a bug you are more than welcome to do so here.
 
 Publishing applications with this plugin is fairly straightforward. Simply configure one or more stores in Jenkins' system configuration, then add a post-build step to a Jenkins project and select one of the previously configured stores to upload to.
 
